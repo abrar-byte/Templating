@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Axios from './Axios';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Axios />
   </React.StrictMode>,
   document.getElementById('root')
 );

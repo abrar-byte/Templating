@@ -1,6 +1,83 @@
 .App {
   text-align: center;
 }
+.gambar {
+  position: absolute;
+  width: 42.5px;
+  height: 42.5px;
+  left: 48px;
+  top: 24px;
+}
+.nav1 {
+  position: absolute;
+  width: 45px;
+  height: 28px;
+  left: 1232.94px;
+  top: 34px;
+}
+
+.nav2 {
+  position: absolute;
+  width: 50px;
+  height: 32px;
+  left: 1302px;
+  top: 30px;
+}
+.nav3 {
+  position: absolute;
+  left: 0.98%;
+  right: -91.96%;
+  top: 0%;
+  bottom: 36.83%;
+
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 100%;
+  /* or 28px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #db9e00;
+
+  border-radius: 2px;
+}
+.Text {
+  position: absolute;
+  width: 126px;
+  height: 30px;
+  left: 115px;
+  top: 30px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 167.23%;
+  /* or 30px */
+
+  color: #000000;
+}
+
+.Text2 {
+  position: absolute;
+  left: 19.17%;
+  right: 27.08%;
+  top: 8.87%;
+  bottom: 87.62%;
+
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 167.23%;
+  /* or 54px */
+
+  color: #676767;
+}
 
 .App-logo {
   height: 40vmin;
