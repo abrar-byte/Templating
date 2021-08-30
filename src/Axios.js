@@ -26,7 +26,7 @@ export default class Axios extends Component {
       this.setState({ post: data });
     } catch (error) {
       throw error
-      console.log(error);
+      // console.log(error);
     }
     // kelebihan menggunakan async await adalah bisa jadi variabel dan bisa diubah seperti disorting ,dll
   };
@@ -37,16 +37,18 @@ export default class Axios extends Component {
   render() {
     console.log(this.state.post);
     return (
-      <div>
-        {this.state.post.map((post) => (
-          <div key={post.id}>
-            <h2>{post.title}</h2>
-            <p>{post.body}</p>
-          </div>
-        ))}
-        <h2>Hai</h2>
-        <p></p>
-      </div>
+      this.state.post.length > 0 ? (
+        <div>
+          {this.state.post.map((post) => (
+            <div key={post.id}>
+              <h2>{post.title}</h2>
+              <p>{post.body}</p>
+            </div>
+          ))}
+          <h2>Hai</h2>
+          <p></p>
+        </div>)
+        : (<h1>Loading ...</h1>)
     );
   }
 }
