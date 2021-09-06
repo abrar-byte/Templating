@@ -1,13 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Axios from './Axios';
+// import Axios from './Axios';
+// import Portofolio from './Portofolio';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Inti from './Portofolio';
+// import Shape from './Shape';
+// // import NavbarComponent from './Server';
+// import Server from './kasir-app-frontend/Server.js';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Axios />
+    <Inti />
   </React.StrictMode>,
   document.getElementById('root')
 );
