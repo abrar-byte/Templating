@@ -71,7 +71,7 @@ class Second extends Component {
             </Col>
             <Col >
               <Container className="item">
-                <img width="900" src="./bxbMockup.png" />
+                <img width="900" src="./bxbMockup.png" alt="gambar" />
               </Container>
             </Col>
           </Row>
@@ -126,7 +126,7 @@ class Fourth extends Component {
 
             </Col>
             <Col>
-              <img className="gambar" height="400" src="./15-inch-macbook-pro-retina.png" />
+              <img className="gambar" height="400" src="./15-inch-macbook-pro-retina.png" alt="gambar" />
             </Col>
           </Row>
         </Container>
